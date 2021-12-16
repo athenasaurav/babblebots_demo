@@ -33,8 +33,8 @@ Deploying Rasa Bot over Google Cloud Platform using Docker.
 
 #### 3) Clone the Docker App
 
-- > git clone -b Docker https://github.com/athenasaurav/gangala-docker.git
-- > cd gangala-docker
+- > git clone https://github.com/athenasaurav/babblebots_demo.git
+- > cd babblebots_demo
 
 #### 4) Build the Docker app and run the services:
 
@@ -66,4 +66,4 @@ Re build the docker image with
 
 then just do 
 
-- >docker-compose restart
+- >docker-compose up -d
